@@ -1,0 +1,263 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #FFF8F0;
+    font-family: "Inter";
+    color: #55206D;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "League Spartan" sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 0px;
+}
+
+#para {
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.bigtext {
+    color: #331E6A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.hero-section {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+#header-section {
+    width: 60%;
+    padding: 32px 10px 32px 10px;
+}
+
+#image {
+    width: 40%;
+}
+
+#my-image {
+    width: 100%;
+}
+
+.small-text {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+#Hi-name {
+    margin-top: 42px;
+}
+
+#contact-button {
+    width: 138px;
+    height: 44px;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+#roles {
+    display: flex;
+    text-align: center;
+}
+
+#pricing {
+    color: #2858FF;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+#roles{
+    max-width: 1060px;
+    margin: 30px auto;
+}
+.jobit{
+   width: 33.33%;
+   margin-right: 20px;
+   background-color:#FFFFFF;
+   padding: 10px;
+   padding-bottom: 30px;
+   
+}
+#pricing-section {
+    max-width: 1060px;
+    /*  i can see its with value in figma */
+    margin: 0 auto;
+    /*it makes div to be centered with respect to screen size */
+}
+
+#h2-section {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.big-text {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+
+#pricing-boxes {
+    display: flex;
+}
+
+.pricing-box {
+    width: 33.33%;
+
+}
+
+.pricing-card {
+    background-color: #FFFFFF;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+
+.service {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #2858FF;
+}
+.rupees {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-top: 7px;
+    color: #000000;
+    /* fixs distance between lines of text. here only one line */
+}
+
+.perpage {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+}
+
+.service-benefits {
+    padding: 0;
+    list-style-type: none;
+    /*  To remove bullet points of unordered list */
+}
+
+.service-benefits li {
+    margin: 12px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+
+.service-button {
+    width: 100%;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid #2f2f2f;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.service-button:hover {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    cursor: pointer;
+    /* cursor hand button la avtundi. contat me dagarki velthe */
+}
+
+.box-2 {
+    background-color: #FFD748;
+    /* we can give two class names to one div */
+}
+
+.box-2 li {
+    color: #000000;
+}
+
+.box-2 .desc {
+    color: #00000080;
+}
+
+.box-2 .perpage {
+    color: #00000080;
+}
+
+.box-2 .service-button {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.box-2 .service-button:hover {
+    background-color: #ffffff;
+    color: #2f2f2f;
+    cursor: pointer;
+}
+
+#Fotter {
+    margin-top: 90px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+}
+.checkmark{
+    width:17px;
+    height:17px;
+    margin-bottom:-4px;
+}
+
+/* akuva one by one parent divs vunapudu max width equal ga vundela 
+pedithe annie okae line lo start ayinatu untadi. here hero section 
+and pricing section laga */
+
+/* note2:style="margin-bottom: -4px;"margin add cheyadhu 
+just down ki 4px jaruptundi. as it is negative 
+ used mostly to icons when next to next. so that both icon and text seems align*/
